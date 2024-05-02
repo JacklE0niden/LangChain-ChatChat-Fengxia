@@ -634,7 +634,7 @@ async def start_main_server():
         args.webui = False
 
     elif args.llm_api:
-        args.openai_api = True
+        args._api = True
         args.model_worker = True
         args.api_worker = True
         args.api = False
